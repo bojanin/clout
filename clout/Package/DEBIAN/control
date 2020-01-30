@@ -1,0 +1,17 @@
+Package: com.ven1xus.clout
+Name: clout
+Version: 0.1-1
+Description: Gives you + other tweak users the verified check
+Section: Tweaks
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Tommy Bojanin
+dev: ven1xus
+Homepage: 
+Depiction: 
+Maintainer: ven1xus
+Icon: 
+

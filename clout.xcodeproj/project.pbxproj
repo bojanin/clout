@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6570529723E26B8900138208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6570529623E26B8900138208 /* Foundation.framework */; };
+		657052A523E26B8900138208 /* clout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 657052A423E26B8900138208 /* clout.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6570529323E26B8900138208 /* clout.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = clout.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		6570529623E26B8900138208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6570529B23E26B8900138208 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		6570529F23E26B8900138208 /* clout.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = clout.plist; sourceTree = "<group>"; };
+		657052A023E26B8900138208 /* cloutIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloutIcon.png; sourceTree = "<group>"; };
+		657052A123E26B8900138208 /* cloutIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloutIcon@2x.png"; sourceTree = "<group>"; };
+		657052A323E26B8900138208 /* clout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "clout-Prefix.pch"; path = "../clout-Prefix.pch"; sourceTree = "<group>"; };
+		657052A423E26B8900138208 /* clout.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = clout.mm; sourceTree = "<group>"; };
+		657052A823E26B8900138208 /* clout.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = clout.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6570528F23E26B8900138208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6570529723E26B8900138208 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6570528923E26B8900138208 = {
+			isa = PBXGroup;
+			children = (
+				6570529823E26B8900138208 /* clout */,
+				6570529523E26B8900138208 /* Frameworks */,
+				6570529423E26B8900138208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6570529423E26B8900138208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6570529323E26B8900138208 /* clout.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6570529523E26B8900138208 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6570529623E26B8900138208 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6570529823E26B8900138208 /* clout */ = {
+			isa = PBXGroup;
+			children = (
+				657052A423E26B8900138208 /* clout.mm */,
+				6570529923E26B8900138208 /* Package */,
+				657052A223E26B8900138208 /* Supporting Files */,
+			);
+			path = clout;
+			sourceTree = "<group>";
+		};
+		6570529923E26B8900138208 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				6570529A23E26B8900138208 /* DEBIAN */,
+				6570529C23E26B8900138208 /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		6570529A23E26B8900138208 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				6570529B23E26B8900138208 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		6570529C23E26B8900138208 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6570529D23E26B8900138208 /* PreferenceLoader */,
+				657052A623E26B8900138208 /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6570529D23E26B8900138208 /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				6570529E23E26B8900138208 /* Preferences */,
+			);
+			path = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		6570529E23E26B8900138208 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				6570529F23E26B8900138208 /* clout.plist */,
+				657052A023E26B8900138208 /* cloutIcon.png */,
+				657052A123E26B8900138208 /* cloutIcon@2x.png */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		657052A223E26B8900138208 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				657052A323E26B8900138208 /* clout-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		657052A623E26B8900138208 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				657052A723E26B8900138208 /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		657052A723E26B8900138208 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				657052A823E26B8900138208 /* clout.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6570529023E26B8900138208 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6570529223E26B8900138208 /* clout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657052AB23E26B8900138208 /* Build configuration list for PBXNativeTarget "clout" */;
+			buildPhases = (
+				6570528E23E26B8900138208 /* Sources */,
+				6570528F23E26B8900138208 /* Frameworks */,
+				6570529023E26B8900138208 /* Headers */,
+				6570529123E26B8900138208 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clout;
+			productName = clout;
+			productReference = 6570529323E26B8900138208 /* clout.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6570528A23E26B8900138208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					6570529223E26B8900138208 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 6570528D23E26B8900138208 /* Build configuration list for PBXProject "clout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6570528923E26B8900138208;
+			productRefGroup = 6570529423E26B8900138208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6570529223E26B8900138208 /* clout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6570529123E26B8900138208 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6570528E23E26B8900138208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657052A523E26B8900138208 /* clout.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		657052A923E26B8900138208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"clout\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		657052AA23E26B8900138208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"clout\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		657052AC23E26B8900138208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3G5SAS68Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "clout/clout-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LLVM_LTO = YES_THIN;
+				MonkeyDevBuildPackageOnAnyBuild = YES;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		657052AD23E26B8900138208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3G5SAS68Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "clout/clout-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LLVM_LTO = YES_THIN;
+				MonkeyDevBuildPackageOnAnyBuild = YES;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6570528D23E26B8900138208 /* Build configuration list for PBXProject "clout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657052A923E26B8900138208 /* Release */,
+				657052AA23E26B8900138208 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657052AB23E26B8900138208 /* Build configuration list for PBXNativeTarget "clout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657052AC23E26B8900138208 /* Release */,
+				657052AD23E26B8900138208 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6570528A23E26B8900138208 /* Project object */;
+}
